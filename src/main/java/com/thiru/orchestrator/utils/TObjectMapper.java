@@ -3,7 +3,6 @@ package com.thiru.orchestrator.utils;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import io.micrometer.common.util.StringUtils;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -29,24 +28,20 @@ public class TObjectMapper {
         return readValue(writeValueAsString(source), javaType);
     }
 
-    private static <T> T readValue(String content, JavaType targetClass) {
-        if (StringUtils.isEmpty(content)) {
-            return null;
-        }
+    protected static <T> T readValue(String content, JavaType targetClass) {
+
         try {
             return objectMapper.readValue(content, targetClass);
-        } catch (IOException e) {
+        } catch (Exception e) {
             throw new IllegalArgumentException(e);
         }
     }
 
-    private static <T> T readValue(String content, Class<T> targetClass) {
-        if (StringUtils.isEmpty(content)) {
-            return null;
-        }
+    protected static <T> T readValue(String content, Class<T> targetClass) {
+
         try {
             return objectMapper.readValue(content, targetClass);
-        } catch (IOException e) {
+        } catch (Exception e) {
             throw new IllegalArgumentException(e);
         }
     }
