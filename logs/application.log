@@ -30,7 +30,7 @@
 2025-01-25T12:07:13.417+05:30  INFO 25718 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T12:07:13.463+05:30  INFO 25718 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T12:07:13.471+05:30  INFO 25718 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 3.346 seconds (process running for 4.149)
-2025-01-25T12:07:47.417+05:30  INFO 25718 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T12:07:47.417+05:30  INFO 25718 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T12:08:03.496+05:30  INFO 25718 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T12:08:03.496+05:30  INFO 25718 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-01-25T12:08:03.497+05:30  INFO 25718 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -72,7 +72,7 @@
 2025-01-25T12:08:45.565+05:30  INFO 26031 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T12:08:45.573+05:30  INFO 26031 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 3.206 seconds (process running for 3.806)
 2025-01-25T12:09:32.948+05:30  WARN 26031 --- [orchestrator] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s310ms).
-2025-01-25T12:09:33.159+05:30  INFO 26031 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T12:09:33.159+05:30  INFO 26031 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T12:09:51.595+05:30  INFO 26031 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T12:09:51.600+05:30  INFO 26031 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T12:09:51.604+05:30  INFO 26031 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -110,7 +110,7 @@
 2025-01-25T12:09:56.098+05:30  INFO 26154 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T12:09:56.141+05:30  INFO 26154 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T12:09:56.148+05:30  INFO 26154 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 3.222 seconds (process running for 3.832)
-2025-01-25T12:09:59.474+05:30  INFO 26154 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T12:09:59.474+05:30  INFO 26154 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T12:10:35.207+05:30  INFO 26154 --- [orchestrator] [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T12:10:35.207+05:30  INFO 26154 --- [orchestrator] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-01-25T12:10:35.209+05:30  INFO 26154 --- [orchestrator] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -152,7 +152,7 @@
 2025-01-25T12:13:30.297+05:30  INFO 26380 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T12:13:30.304+05:30  INFO 26380 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 3.29 seconds (process running for 3.925)
 2025-01-25T12:14:39.360+05:30  WARN 26380 --- [orchestrator] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s26ms).
-2025-01-25T12:14:44.293+05:30  INFO 26380 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T12:14:44.293+05:30  INFO 26380 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T12:15:38.773+05:30  INFO 26380 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T12:15:38.779+05:30  INFO 26380 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T12:15:38.783+05:30  INFO 26380 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -190,7 +190,7 @@
 2025-01-25T12:15:43.936+05:30  INFO 26514 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T12:15:43.977+05:30  INFO 26514 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T12:15:43.984+05:30  INFO 26514 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 3.188 seconds (process running for 3.786)
-2025-01-25T12:16:11.705+05:30  INFO 26514 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T12:16:11.705+05:30  INFO 26514 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T12:30:14.417+05:30  INFO 26514 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T12:30:14.423+05:30  INFO 26514 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T12:30:14.426+05:30  INFO 26514 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -245,7 +245,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -284,7 +284,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -323,7 +323,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -362,7 +362,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -384,7 +384,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
 	at com.thiru.orchestrator.OrchestratorApplication.main(OrchestratorApplication.java:10) ~[classes/:na]
 
-2025-01-25T13:02:36.077+05:30  INFO 32187 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:02:36.077+05:30  INFO 32187 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:03:05.306+05:30  INFO 32187 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T13:03:05.307+05:30  INFO 32187 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-01-25T13:03:05.308+05:30  INFO 32187 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -442,7 +442,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -481,7 +481,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -520,7 +520,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -559,7 +559,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -581,7 +581,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
 	at com.thiru.orchestrator.OrchestratorApplication.main(OrchestratorApplication.java:10) ~[classes/:na]
 
-2025-01-25T13:05:59.157+05:30  INFO 32421 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:05:59.157+05:30  INFO 32421 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:06:32.064+05:30  INFO 32421 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:06:32.070+05:30  INFO 32421 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:06:32.073+05:30  INFO 32421 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -636,7 +636,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.2.jar:6.2.2]
 	at com.thiru.orchestrator.service.product.ProductFetcher$$SpringCGLIB$$0.fetchProducts(<generated>) ~[classes/:na]
 	at com.thiru.orchestrator.service.product.ProductServiceImpl.orchestrateProductFetchAndStore(ProductServiceImpl.java:31) ~[classes/:na]
-	at com.thiru.orchestrator.data.DataLoader.run(DataLoader.java:18) ~[classes/:na]
+	at com.thiru.orchestrator.utils.DataLoader.run(DataLoader.java:18) ~[classes/:na]
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.2.jar:3.4.2]
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.2.jar:6.2.2]
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.2.jar:6.2.2]
@@ -695,7 +695,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:08:19.161+05:30  INFO 32793 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T13:08:19.254+05:30  INFO 32793 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:08:19.262+05:30  INFO 32793 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.157 seconds (process running for 4.488)
-2025-01-25T13:08:31.919+05:30  INFO 32793 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:08:31.919+05:30  INFO 32793 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:08:46.556+05:30  INFO 32793 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:08:46.562+05:30  INFO 32793 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:08:46.565+05:30  INFO 32793 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -733,7 +733,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:09:51.530+05:30  INFO 33015 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T13:09:51.619+05:30  INFO 33015 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:09:51.627+05:30  INFO 33015 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.049 seconds (process running for 4.353)
-2025-01-25T13:10:07.556+05:30  INFO 33015 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:10:07.556+05:30  INFO 33015 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:18:34.518+05:30  INFO 33015 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:18:34.523+05:30  INFO 33015 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:18:34.526+05:30  INFO 33015 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -771,7 +771,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:18:41.504+05:30  INFO 33958 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T13:18:41.594+05:30  INFO 33958 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:18:41.602+05:30  INFO 33958 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.132 seconds (process running for 4.459)
-2025-01-25T13:18:54.490+05:30  INFO 33958 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:18:54.490+05:30  INFO 33958 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:20:13.269+05:30  INFO 33958 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:20:13.274+05:30  INFO 33958 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:20:13.277+05:30  INFO 33958 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -846,7 +846,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:22:39.250+05:30  INFO 34285 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T13:22:39.348+05:30  INFO 34285 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:22:39.357+05:30  INFO 34285 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.114 seconds (process running for 4.416)
-2025-01-25T13:22:39.359+05:30  INFO 34285 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:22:39.359+05:30  INFO 34285 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:23:10.796+05:30  INFO 34285 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:23:10.801+05:30  INFO 34285 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:23:10.804+05:30  INFO 34285 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -884,7 +884,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:56:06.984+05:30  INFO 38528 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T13:56:07.079+05:30  INFO 38528 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:56:07.087+05:30  INFO 38528 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.208 seconds (process running for 4.543)
-2025-01-25T13:56:09.777+05:30  INFO 38528 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:56:09.777+05:30  INFO 38528 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T13:56:12.222+05:30  INFO 38528 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T13:56:12.228+05:30  INFO 38528 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T13:56:12.231+05:30  INFO 38528 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -923,7 +923,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T13:59:30.636+05:30  INFO 39878 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T13:59:30.644+05:30  INFO 39878 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.181 seconds (process running for 4.504)
 2025-01-25T13:59:36.431+05:30  INFO 39878 --- [orchestrator] [main] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
-2025-01-25T13:59:36.431+05:30  INFO 39878 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T13:59:36.431+05:30  INFO 39878 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T14:00:54.880+05:30  INFO 39878 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T14:00:54.885+05:30  INFO 39878 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T14:00:54.888+05:30  INFO 39878 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -961,7 +961,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T14:01:01.534+05:30  INFO 40041 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T14:01:01.631+05:30  INFO 40041 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T14:01:01.639+05:30  INFO 40041 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.276 seconds (process running for 4.592)
-2025-01-25T14:01:01.642+05:30  INFO 40041 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T14:01:01.642+05:30  INFO 40041 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T14:01:04.052+05:30  INFO 40041 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T14:08:23.848+05:30  INFO 40041 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T14:08:23.853+05:30  INFO 40041 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1000,7 +1000,7 @@ java.lang.NoSuchMethodException: class com.thiru.orchestrator.dto.ProductsDto cl
 2025-01-25T14:08:30.146+05:30  INFO 42776 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T14:08:30.243+05:30  INFO 42776 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T14:08:30.251+05:30  INFO 42776 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.231 seconds (process running for 4.591)
-2025-01-25T14:08:30.254+05:30  INFO 42776 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T14:08:30.254+05:30  INFO 42776 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T14:08:30.258+05:30  WARN 42776 --- [orchestrator] [task-1] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
 
 java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture class com.thiru.orchestrator.service.product.ProductFetcher.fallbackFetchProducts(int,int,class java.lang.Throwable)
@@ -1144,7 +1144,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T14:09:20.715+05:30  INFO 43042 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T14:09:20.814+05:30  INFO 43042 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T14:09:20.822+05:30  INFO 43042 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.237 seconds (process running for 4.545)
-2025-01-25T14:09:20.826+05:30  INFO 43042 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T14:09:20.826+05:30  INFO 43042 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T14:09:24.481+05:30  INFO 43042 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T14:09:37.693+05:30  INFO 43042 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T14:09:37.699+05:30  INFO 43042 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1183,7 +1183,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T14:10:35.787+05:30  INFO 43534 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T14:10:35.883+05:30  INFO 43534 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T14:10:35.891+05:30  INFO 43534 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.143 seconds (process running for 4.465)
-2025-01-25T14:10:35.895+05:30  INFO 43534 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T14:10:35.895+05:30  INFO 43534 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T14:10:35.900+05:30 ERROR 43534 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : Error fetching first page
 
 java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to fetch products
@@ -1261,7 +1261,7 @@ Caused by: java.lang.RuntimeException: Failed to fetch products
 2025-01-25T15:11:50.195+05:30  INFO 46663 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T15:11:50.294+05:30  INFO 46663 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T15:11:50.301+05:30  INFO 46663 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.372 seconds (process running for 4.73)
-2025-01-25T15:11:50.305+05:30  INFO 46663 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T15:11:50.305+05:30  INFO 46663 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T15:11:52.802+05:30  INFO 46663 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T15:11:59.562+05:30  INFO 46663 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T15:11:59.568+05:30  INFO 46663 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1300,7 +1300,7 @@ Caused by: java.lang.RuntimeException: Failed to fetch products
 2025-01-25T15:44:50.818+05:30  INFO 46929 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T15:44:50.908+05:30  INFO 46929 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T15:44:50.916+05:30  INFO 46929 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.142 seconds (process running for 4.497)
-2025-01-25T15:44:50.919+05:30  INFO 46929 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T15:44:50.919+05:30  INFO 46929 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T15:44:50.920+05:30 ERROR 46929 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : Error fetching first page
 
 java.util.concurrent.CompletionException: java.lang.RuntimeException: Simulating failure
@@ -1357,7 +1357,7 @@ Caused by: java.lang.RuntimeException: Simulating failure
 2025-01-25T15:56:17.679+05:30  INFO 47717 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T15:56:17.771+05:30  INFO 47717 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T15:56:17.779+05:30  INFO 47717 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.188 seconds (process running for 4.525)
-2025-01-25T15:56:17.783+05:30  INFO 47717 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T15:56:17.783+05:30  INFO 47717 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T15:56:17.786+05:30  WARN 47717 --- [orchestrator] [task-1] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
 
 java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture class com.thiru.orchestrator.service.product.ProductFetcher.fallbackFetchProducts(int,int,class java.lang.Throwable)
@@ -1501,7 +1501,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T15:57:29.222+05:30  INFO 48585 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T15:57:29.315+05:30  INFO 48585 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T15:57:29.323+05:30  INFO 48585 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.1 seconds (process running for 4.409)
-2025-01-25T15:57:29.327+05:30  INFO 48585 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T15:57:29.327+05:30  INFO 48585 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T15:57:41.916+05:30  INFO 48585 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T15:58:05.095+05:30  INFO 48585 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T15:58:05.100+05:30  INFO 48585 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1540,7 +1540,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T16:06:51.269+05:30  INFO 50761 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T16:06:51.372+05:30  INFO 50761 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T16:06:51.379+05:30  INFO 50761 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.355 seconds (process running for 4.706)
-2025-01-25T16:06:51.383+05:30  INFO 50761 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T16:06:51.383+05:30  INFO 50761 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T16:06:53.913+05:30  INFO 50761 --- [orchestrator] [task-2] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T16:07:38.665+05:30  INFO 50761 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T16:07:38.666+05:30  INFO 50761 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -1582,7 +1582,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T16:15:49.455+05:30  INFO 52163 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T16:15:49.565+05:30  INFO 52163 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T16:15:49.573+05:30  INFO 52163 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.3 seconds (process running for 4.648)
-2025-01-25T16:15:49.577+05:30  INFO 52163 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T16:15:49.577+05:30  INFO 52163 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T16:15:52.260+05:30  INFO 52163 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T16:15:53.236+05:30  INFO 52163 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T16:15:53.236+05:30  INFO 52163 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -1624,7 +1624,7 @@ java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture cl
 2025-01-25T18:17:50.737+05:30  INFO 60723 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T18:17:50.815+05:30  INFO 60723 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T18:17:50.823+05:30  INFO 60723 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.299 seconds (process running for 4.723)
-2025-01-25T18:17:50.827+05:30  INFO 60723 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T18:17:50.827+05:30  INFO 60723 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T18:17:53.438+05:30  INFO 60723 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T18:18:02.533+05:30  INFO 60723 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T18:18:02.534+05:30  INFO 60723 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -1716,7 +1716,7 @@ Consider defining a bean of type 'org.springframework.web.client.RestTemplate' i
 2025-01-25T19:26:41.309+05:30  INFO 68873 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:26:41.410+05:30  INFO 68873 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:26:41.418+05:30  INFO 68873 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.111 seconds (process running for 4.412)
-2025-01-25T19:26:41.421+05:30  INFO 68873 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:26:41.421+05:30  INFO 68873 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:26:44.032+05:30  INFO 68873 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:26:50.481+05:30  INFO 68873 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:26:50.486+05:30  INFO 68873 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1755,7 +1755,7 @@ Consider defining a bean of type 'org.springframework.web.client.RestTemplate' i
 2025-01-25T19:30:54.857+05:30  INFO 69905 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:30:54.961+05:30  INFO 69905 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:30:54.969+05:30  INFO 69905 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.136 seconds (process running for 4.437)
-2025-01-25T19:30:54.973+05:30  INFO 69905 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:30:54.973+05:30  INFO 69905 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:30:54.977+05:30  INFO 69905 --- [orchestrator] [task-1] c.t.o.service.product.ProductFetch       : Inside fetchPageAsync
 2025-01-25T19:30:54.977+05:30 ERROR 69905 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : Error fetching first page
 
@@ -1831,7 +1831,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:31:57.408+05:30  INFO 69980 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:31:57.506+05:30  INFO 69980 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:31:57.514+05:30  INFO 69980 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.151 seconds (process running for 4.472)
-2025-01-25T19:31:57.517+05:30  INFO 69980 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:31:57.517+05:30  INFO 69980 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:31:57.522+05:30  INFO 69980 --- [orchestrator] [task-1] c.t.o.service.product.ProductFetch       : Inside fetchPageAsync
 2025-01-25T19:31:57.522+05:30 ERROR 69980 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : Error fetching first page
 
@@ -1907,7 +1907,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:32:48.573+05:30  INFO 70162 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:32:48.681+05:30  INFO 70162 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:32:48.689+05:30  INFO 70162 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.154 seconds (process running for 4.457)
-2025-01-25T19:32:48.693+05:30  INFO 70162 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:32:48.693+05:30  INFO 70162 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:32:51.366+05:30  INFO 70162 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:40:24.512+05:30  INFO 70162 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:40:24.517+05:30  INFO 70162 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -1946,7 +1946,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:47:55.284+05:30  INFO 70870 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:47:55.381+05:30  INFO 70870 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:47:55.389+05:30  INFO 70870 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.149 seconds (process running for 4.465)
-2025-01-25T19:47:55.392+05:30  INFO 70870 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:47:55.392+05:30  INFO 70870 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:47:55.393+05:30 ERROR 70870 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : Error fetching first page
 
 java.util.concurrent.CompletionException: java.lang.RuntimeException: Error
@@ -2003,7 +2003,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:50:37.785+05:30  INFO 70973 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:50:37.883+05:30  INFO 70973 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:50:37.891+05:30  INFO 70973 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.065 seconds (process running for 4.393)
-2025-01-25T19:50:37.894+05:30  INFO 70973 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:50:37.894+05:30  INFO 70973 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:50:42.596+05:30  INFO 70973 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:51:21.695+05:30  INFO 70973 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:51:21.701+05:30  INFO 70973 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -2042,7 +2042,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:52:06.392+05:30  INFO 71021 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:52:06.493+05:30  INFO 71021 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:52:06.501+05:30  INFO 71021 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.054 seconds (process running for 4.358)
-2025-01-25T19:52:06.505+05:30  INFO 71021 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:52:06.505+05:30  INFO 71021 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:52:11.242+05:30  INFO 71021 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:53:05.197+05:30  INFO 71021 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:53:05.203+05:30  INFO 71021 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -2081,7 +2081,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:53:20.324+05:30  INFO 71081 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:53:20.422+05:30  INFO 71081 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:53:20.429+05:30  INFO 71081 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.086 seconds (process running for 4.39)
-2025-01-25T19:53:20.433+05:30  INFO 71081 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:53:20.433+05:30  INFO 71081 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:53:27.098+05:30  INFO 71081 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:53:54.639+05:30  INFO 71081 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:53:54.644+05:30  INFO 71081 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -2120,7 +2120,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:54:01.387+05:30  INFO 71103 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:54:01.485+05:30  INFO 71103 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:54:01.493+05:30  INFO 71103 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.065 seconds (process running for 4.398)
-2025-01-25T19:54:01.497+05:30  INFO 71103 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:54:01.497+05:30  INFO 71103 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:54:05.522+05:30  INFO 71103 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:54:25.162+05:30  INFO 71103 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T19:54:25.163+05:30  INFO 71103 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -2162,7 +2162,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:54:48.443+05:30  INFO 71111 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:54:48.541+05:30  INFO 71111 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:54:48.549+05:30  INFO 71111 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.138 seconds (process running for 4.45)
-2025-01-25T19:54:48.552+05:30  INFO 71111 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:54:48.552+05:30  INFO 71111 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:54:52.575+05:30  INFO 71111 --- [orchestrator] [task-1] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:54:58.217+05:30  INFO 71111 --- [orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T19:54:58.218+05:30  INFO 71111 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -2204,7 +2204,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:55:13.134+05:30  INFO 71120 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:55:13.232+05:30  INFO 71120 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:55:13.240+05:30  INFO 71120 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.095 seconds (process running for 4.4)
-2025-01-25T19:55:13.244+05:30  INFO 71120 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:55:13.244+05:30  INFO 71120 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:55:20.137+05:30  INFO 71120 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:55:30.232+05:30  INFO 71120 --- [orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-01-25T19:55:30.232+05:30  INFO 71120 --- [orchestrator] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -2246,7 +2246,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:56:29.408+05:30  INFO 71283 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:56:29.512+05:30  INFO 71283 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:56:29.520+05:30  INFO 71283 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.049 seconds (process running for 4.347)
-2025-01-25T19:56:29.523+05:30  INFO 71283 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:56:29.523+05:30  INFO 71283 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:56:32.624+05:30  INFO 71283 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:57:18.879+05:30  INFO 71283 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:57:18.884+05:30  INFO 71283 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -2285,7 +2285,7 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:57:25.590+05:30  INFO 71357 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:57:25.693+05:30  INFO 71357 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:57:25.700+05:30  INFO 71357 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.064 seconds (process running for 4.362)
-2025-01-25T19:57:25.704+05:30  INFO 71357 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:57:25.704+05:30  INFO 71357 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:57:30.573+05:30  INFO 71357 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T19:57:35.451+05:30  INFO 71357 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T19:57:35.457+05:30  INFO 71357 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
@@ -2324,10 +2324,326 @@ Caused by: java.lang.RuntimeException: Error
 2025-01-25T19:58:30.571+05:30  INFO 71541 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 2025-01-25T19:58:30.671+05:30  INFO 71541 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-25T19:58:30.678+05:30  INFO 71541 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.134 seconds (process running for 4.464)
-2025-01-25T19:58:30.682+05:30  INFO 71541 --- [orchestrator] [main] com.thiru.orchestrator.data.DataLoader   : Products loaded from URL
+2025-01-25T19:58:30.682+05:30  INFO 71541 --- [orchestrator] [main] com.thiru.orchestrator.utils.DataLoader   : Products loaded from URL
 2025-01-25T19:58:33.415+05:30  INFO 71541 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
 2025-01-25T20:00:12.985+05:30  INFO 71541 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-25T20:00:12.990+05:30  INFO 71541 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-01-25T20:00:12.996+05:30  INFO 71541 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-01-25T20:00:12.998+05:30  INFO 71541 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-01-25T20:00:12.999+05:30  INFO 71541 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T09:54:38.652+05:30  INFO 5936 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 5936 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T09:54:38.653+05:30  INFO 5936 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T09:54:39.126+05:30  INFO 5936 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T09:54:39.158+05:30  INFO 5936 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2025-01-26T09:54:39.685+05:30  INFO 5936 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T09:54:39.693+05:30  INFO 5936 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T09:54:39.693+05:30  INFO 5936 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T09:54:39.719+05:30  INFO 5936 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T09:54:39.719+05:30  INFO 5936 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2025-01-26T09:54:39.839+05:30  INFO 5936 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T09:54:39.960+05:30  INFO 5936 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T09:54:39.961+05:30  INFO 5936 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T09:54:39.999+05:30  INFO 5936 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T09:54:40.042+05:30  INFO 5936 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T09:54:40.066+05:30  INFO 5936 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T09:54:40.285+05:30  INFO 5936 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T09:54:40.338+05:30  INFO 5936 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T09:54:40.980+05:30  INFO 5936 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T09:54:41.010+05:30  INFO 5936 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T09:54:41.215+05:30  INFO 5936 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T09:54:42.058+05:30  WARN 5936 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T09:54:42.128+05:30  INFO 5936 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T09:54:42.760+05:30  INFO 5936 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T09:54:42.867+05:30  INFO 5936 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T09:54:42.875+05:30  INFO 5936 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.514 seconds (process running for 5.0)
+2025-01-26T09:54:42.879+05:30  INFO 5936 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T09:54:44.938+05:30 ERROR 5936 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : Error fetching page 2
+
+java.util.concurrent.CompletionException: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at com.thiru.orchestrator.service.product.ProductServiceImpl.lambda$orchestrateProductFetchAndStore$0(ProductServiceImpl.java:47) ~[classes/:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[na:na]
+	... 5 common frames omitted
+
+2025-01-26T09:54:45.748+05:30 ERROR 5936 --- [orchestrator] [task-5] c.t.o.s.product.ProductServiceImpl       : Error fetching page 3
+
+java.util.concurrent.CompletionException: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at com.thiru.orchestrator.service.product.ProductServiceImpl.lambda$orchestrateProductFetchAndStore$0(ProductServiceImpl.java:47) ~[classes/:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[na:na]
+	... 5 common frames omitted
+
+2025-01-26T09:54:45.749+05:30 ERROR 5936 --- [orchestrator] [task-2] c.t.o.s.product.ProductServiceImpl       : Error fetching page 0
+
+java.util.concurrent.CompletionException: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at com.thiru.orchestrator.service.product.ProductServiceImpl.lambda$orchestrateProductFetchAndStore$0(ProductServiceImpl.java:47) ~[classes/:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[na:na]
+	... 5 common frames omitted
+
+2025-01-26T09:54:45.749+05:30 ERROR 5936 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : Error fetching page 1
+
+java.util.concurrent.CompletionException: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.lang.ClassCastException: class com.thiru.orchestrator.dto.ProductDto cannot be cast to class com.thiru.orchestrator.entity.Product (com.thiru.orchestrator.dto.ProductDto and com.thiru.orchestrator.entity.Product are in unnamed module of loader 'app')
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at com.thiru.orchestrator.service.product.ProductServiceImpl.lambda$orchestrateProductFetchAndStore$0(ProductServiceImpl.java:47) ~[classes/:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[na:na]
+	... 5 common frames omitted
+
+2025-01-26T09:54:45.749+05:30  INFO 5936 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T09:56:17.852+05:30  INFO 5936 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T09:56:17.857+05:30  INFO 5936 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T09:56:17.862+05:30  INFO 5936 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T09:56:17.866+05:30  INFO 5936 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T09:56:17.867+05:30  INFO 5936 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T09:58:07.260+05:30  INFO 6356 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 6356 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T09:58:07.261+05:30  INFO 6356 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T09:58:07.695+05:30  INFO 6356 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T09:58:07.728+05:30  INFO 6356 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2025-01-26T09:58:08.230+05:30  INFO 6356 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T09:58:08.237+05:30  INFO 6356 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T09:58:08.237+05:30  INFO 6356 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T09:58:08.262+05:30  INFO 6356 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T09:58:08.262+05:30  INFO 6356 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
+2025-01-26T09:58:08.380+05:30  INFO 6356 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T09:58:08.479+05:30  INFO 6356 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T09:58:08.480+05:30  INFO 6356 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T09:58:08.515+05:30  INFO 6356 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T09:58:08.544+05:30  INFO 6356 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T09:58:08.563+05:30  INFO 6356 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T09:58:08.705+05:30  INFO 6356 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T09:58:08.748+05:30  INFO 6356 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T09:58:09.273+05:30  INFO 6356 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T09:58:09.305+05:30  INFO 6356 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T09:58:09.499+05:30  INFO 6356 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T09:58:10.330+05:30  WARN 6356 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T09:58:10.400+05:30  INFO 6356 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T09:58:11.019+05:30  INFO 6356 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T09:58:11.117+05:30  INFO 6356 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T09:58:11.125+05:30  INFO 6356 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.102 seconds (process running for 4.432)
+2025-01-26T09:58:11.129+05:30  INFO 6356 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T09:58:14.039+05:30  INFO 6356 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T09:58:29.772+05:30  INFO 6356 --- [orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26T09:58:29.772+05:30  INFO 6356 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-26T09:58:29.773+05:30  INFO 6356 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-26T09:58:40.640+05:30  INFO 6356 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T09:58:40.645+05:30  INFO 6356 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T09:58:40.649+05:30  INFO 6356 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T09:58:40.652+05:30  INFO 6356 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T09:58:40.653+05:30  INFO 6356 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T10:01:12.525+05:30  INFO 6979 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 6979 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T10:01:12.526+05:30  INFO 6979 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T10:01:12.989+05:30  INFO 6979 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T10:01:13.022+05:30  INFO 6979 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2025-01-26T10:01:13.538+05:30  INFO 6979 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T10:01:13.545+05:30  INFO 6979 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T10:01:13.546+05:30  INFO 6979 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T10:01:13.573+05:30  INFO 6979 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T10:01:13.573+05:30  INFO 6979 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1025 ms
+2025-01-26T10:01:13.695+05:30  INFO 6979 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T10:01:13.825+05:30  INFO 6979 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T10:01:13.826+05:30  INFO 6979 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T10:01:13.863+05:30  INFO 6979 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T10:01:13.896+05:30  INFO 6979 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T10:01:13.915+05:30  INFO 6979 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T10:01:14.084+05:30  INFO 6979 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T10:01:14.128+05:30  INFO 6979 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T10:01:14.663+05:30  INFO 6979 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T10:01:14.694+05:30  INFO 6979 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:01:14.892+05:30  INFO 6979 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T10:01:15.732+05:30  WARN 6979 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T10:01:15.810+05:30  INFO 6979 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T10:01:16.436+05:30  INFO 6979 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T10:01:16.543+05:30  INFO 6979 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T10:01:16.551+05:30  INFO 6979 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.267 seconds (process running for 4.635)
+2025-01-26T10:01:16.556+05:30  INFO 6979 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T10:01:19.358+05:30  INFO 6979 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T10:01:34.119+05:30  INFO 6979 --- [orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26T10:01:34.119+05:30  INFO 6979 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-26T10:01:34.121+05:30  INFO 6979 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-26T10:01:34.488+05:30  INFO 6979 --- [orchestrator] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 160 ms
+2025-01-26T10:03:23.713+05:30  INFO 6979 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T10:03:23.718+05:30  INFO 6979 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T10:03:23.721+05:30  INFO 6979 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:03:23.725+05:30  INFO 6979 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T10:03:23.726+05:30  INFO 6979 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T10:03:27.294+05:30  INFO 7872 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 7872 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T10:03:27.295+05:30  INFO 7872 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T10:03:27.747+05:30  INFO 7872 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T10:03:27.781+05:30  INFO 7872 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2025-01-26T10:03:28.292+05:30  INFO 7872 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T10:03:28.300+05:30  INFO 7872 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T10:03:28.300+05:30  INFO 7872 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T10:03:28.326+05:30  INFO 7872 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T10:03:28.326+05:30  INFO 7872 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
+2025-01-26T10:03:28.445+05:30  INFO 7872 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T10:03:28.552+05:30  INFO 7872 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T10:03:28.553+05:30  INFO 7872 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T10:03:28.589+05:30  INFO 7872 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T10:03:28.622+05:30  INFO 7872 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T10:03:28.640+05:30  INFO 7872 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T10:03:28.787+05:30  INFO 7872 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T10:03:28.832+05:30  INFO 7872 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T10:03:29.365+05:30  INFO 7872 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T10:03:29.396+05:30  INFO 7872 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:03:29.594+05:30  INFO 7872 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T10:03:30.418+05:30  WARN 7872 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T10:03:30.492+05:30  INFO 7872 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T10:03:31.122+05:30  INFO 7872 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T10:03:31.225+05:30  INFO 7872 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T10:03:31.233+05:30  INFO 7872 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.202 seconds (process running for 4.547)
+2025-01-26T10:03:31.237+05:30  INFO 7872 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T10:03:33.900+05:30  INFO 7872 --- [orchestrator] [task-3] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T10:03:40.275+05:30  INFO 7872 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T10:03:40.281+05:30  INFO 7872 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T10:03:40.285+05:30  INFO 7872 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:03:40.288+05:30  INFO 7872 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T10:03:40.289+05:30  INFO 7872 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T10:09:36.008+05:30  INFO 9467 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 9467 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T10:09:36.009+05:30  INFO 9467 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T10:09:36.457+05:30  INFO 9467 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T10:09:36.490+05:30  INFO 9467 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2025-01-26T10:09:37.001+05:30  INFO 9467 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T10:09:37.009+05:30  INFO 9467 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T10:09:37.009+05:30  INFO 9467 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T10:09:37.034+05:30  INFO 9467 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T10:09:37.034+05:30  INFO 9467 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
+2025-01-26T10:09:37.156+05:30  INFO 9467 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T10:09:37.272+05:30  INFO 9467 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T10:09:37.273+05:30  INFO 9467 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T10:09:37.309+05:30  INFO 9467 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T10:09:37.341+05:30  INFO 9467 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T10:09:37.358+05:30  INFO 9467 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T10:09:37.509+05:30  INFO 9467 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T10:09:37.554+05:30  INFO 9467 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T10:09:38.086+05:30  INFO 9467 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T10:09:38.117+05:30  INFO 9467 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:09:38.350+05:30  INFO 9467 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T10:09:39.162+05:30  WARN 9467 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T10:09:39.237+05:30  INFO 9467 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T10:09:39.874+05:30  INFO 9467 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T10:09:39.982+05:30  INFO 9467 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T10:09:39.990+05:30  INFO 9467 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.21 seconds (process running for 4.543)
+2025-01-26T10:09:39.994+05:30  INFO 9467 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T10:09:42.668+05:30  INFO 9467 --- [orchestrator] [task-4] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T10:10:04.055+05:30  INFO 9467 --- [orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26T10:10:04.056+05:30  INFO 9467 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-26T10:10:04.058+05:30  INFO 9467 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-26T10:10:04.419+05:30  INFO 9467 --- [orchestrator] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 160 ms
+2025-01-26T10:11:51.655+05:30  INFO 9467 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T10:11:51.661+05:30  INFO 9467 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T10:11:51.664+05:30  INFO 9467 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T10:11:51.666+05:30  INFO 9467 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T10:11:51.667+05:30  INFO 9467 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-26T12:09:22.392+05:30  INFO 11028 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.5 with PID 11028 (/Users/thiru/Desktop/orchestrator/target/classes started by thiru in /Users/thiru/Desktop/orchestrator)
+2025-01-26T12:09:22.393+05:30  INFO 11028 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : The following 1 profile is active: "dev"
+2025-01-26T12:09:22.849+05:30  INFO 11028 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-26T12:09:22.885+05:30  INFO 11028 --- [orchestrator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2025-01-26T12:09:23.412+05:30  INFO 11028 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-26T12:09:23.421+05:30  INFO 11028 --- [orchestrator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-26T12:09:23.421+05:30  INFO 11028 --- [orchestrator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26T12:09:23.449+05:30  INFO 11028 --- [orchestrator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-26T12:09:23.449+05:30  INFO 11028 --- [orchestrator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2025-01-26T12:09:23.575+05:30  INFO 11028 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-26T12:09:23.679+05:30  INFO 11028 --- [orchestrator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2025-01-26T12:09:23.680+05:30  INFO 11028 --- [orchestrator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-26T12:09:23.719+05:30  INFO 11028 --- [orchestrator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-26T12:09:23.754+05:30  INFO 11028 --- [orchestrator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-26T12:09:23.775+05:30  INFO 11028 --- [orchestrator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-26T12:09:23.941+05:30  INFO 11028 --- [orchestrator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-26T12:09:23.999+05:30  INFO 11028 --- [orchestrator] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-26T12:09:24.572+05:30  INFO 11028 --- [orchestrator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-26T12:09:24.606+05:30  INFO 11028 --- [orchestrator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T12:09:24.819+05:30  INFO 11028 --- [orchestrator] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-26T12:09:25.714+05:30  WARN 11028 --- [orchestrator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-26T12:09:25.795+05:30  INFO 11028 --- [orchestrator] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-26T12:09:26.441+05:30  INFO 11028 --- [orchestrator] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2025-01-26T12:09:26.553+05:30  INFO 11028 --- [orchestrator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-26T12:09:26.560+05:30  INFO 11028 --- [orchestrator] [main] c.t.o.OrchestratorApplication            : Started OrchestratorApplication in 4.408 seconds (process running for 4.746)
+2025-01-26T12:09:26.564+05:30  INFO 11028 --- [orchestrator] [main] c.thiru.orchestrator.utils.DataLoader    : Products loaded from URL
+2025-01-26T12:09:29.173+05:30  INFO 11028 --- [orchestrator] [task-2] c.t.o.s.product.ProductServiceImpl       : All products have been fetched and stored successfully.
+2025-01-26T12:09:29.685+05:30  INFO 11028 --- [orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26T12:09:29.686+05:30  INFO 11028 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-26T12:09:29.687+05:30  INFO 11028 --- [orchestrator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-26T12:22:13.954+05:30  INFO 11028 --- [orchestrator] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-26T12:22:13.960+05:30  INFO 11028 --- [orchestrator] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-26T12:22:13.964+05:30  INFO 11028 --- [orchestrator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-26T12:22:13.967+05:30  INFO 11028 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-26T12:22:13.968+05:30  INFO 11028 --- [orchestrator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

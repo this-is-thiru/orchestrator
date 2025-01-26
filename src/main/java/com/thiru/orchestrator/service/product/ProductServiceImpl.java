@@ -1,17 +1,20 @@
 package com.thiru.orchestrator.service.product;
 
+import com.thiru.orchestrator.dto.ProductDto;
 import com.thiru.orchestrator.dto.ProductsDto;
 import com.thiru.orchestrator.entity.Product;
 import com.thiru.orchestrator.entity.Review;
 import com.thiru.orchestrator.exception.NotFoundException;
 import com.thiru.orchestrator.repository.ProductRepository;
 import com.thiru.orchestrator.service.review.ReviewService;
+import com.thiru.orchestrator.utils.TObjectMapper;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.IntFunction;
 import java.util.stream.IntStream;
@@ -38,7 +41,8 @@ public class ProductServiceImpl implements ProductService {
                 int skip = page * PRODUCTS_COUNT;
                 return productFetcher.fetchPageAsync(skip, PRODUCTS_COUNT)
                         .thenAccept(response -> {
-                            List<Product> products = response.getProducts();
+                            List<ProductDto> productsDto = response.getProducts();
+                            List<Product> products = TObjectMapper.copyCollection(productsDto, Product.class);
                             products.forEach(this::saveProduct);
                         })
                         .exceptionally(ex -> {
@@ -65,17 +69,22 @@ public class ProductServiceImpl implements ProductService {
 
 
     @Override
-    public List<Product> findArticlesBySearchText(String searchText) {
-        return productRepository.findArticlesBySearchText(searchText);
+    public List<ProductDto> findArticlesBySearchText(String searchText) {
+        List<Product> products = productRepository.findArticlesBySearchText(searchText);
+        return TObjectMapper.copyCollection(products, ProductDto.class);
     }
 
     @Override
-    public Product getProductByIdOrSku(String id) {
+    public ProductDto getProductByIdOrSku(String id) {
+        Optional<Product> optionalProduct;
         if (id.matches("\\d+")) {
-            return productRepository.findById(Long.parseLong(id)).orElseThrow(() -> new NotFoundException("Product not found"));
+            optionalProduct = productRepository.findById(Long.parseLong(id));
         } else {
-            return productRepository.findBySku(id).orElseThrow(() -> new NotFoundException("Product not found"));
+            optionalProduct = productRepository.findBySku(id);
         }
+
+        Product  product = optionalProduct.orElseThrow(() -> new NotFoundException("Product not found"));
+        return TObjectMapper.copy(product, ProductDto.class);
     }
 
     private void saveProduct(Product product) {

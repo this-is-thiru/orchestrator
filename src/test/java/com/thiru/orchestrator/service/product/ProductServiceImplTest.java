@@ -1,5 +1,6 @@
 package com.thiru.orchestrator.service.product;
 
+import com.thiru.orchestrator.dto.ProductDto;
 import com.thiru.orchestrator.dto.ProductsDto;
 import com.thiru.orchestrator.entity.Product;
 import com.thiru.orchestrator.repository.ProductRepository;
@@ -44,7 +45,7 @@ class ProductServiceImplTest {
     void orchestrateProductFetchAndStore() {
         ProductsDto productsDtoTotal = ProductsDto.builder().products(new ArrayList<>()).total(194).skip(0).limit(0).build();
         ProductsDto productsDto = ProductsDto.builder().products(new ArrayList<>()).total(194).skip(0).limit(0).build();
-        Product product = Mockito.mock(Product.class);
+        ProductDto product = Mockito.mock(ProductDto.class);
         ProductsDto productsDto1 = ProductsDto.builder().products(List.of(product)).total(194).skip(0).limit(0).build();
 
         Mockito.when(productFetcher.fetchPageAsync(Mockito.anyInt(), Mockito.anyInt()))
@@ -74,7 +75,7 @@ class ProductServiceImplTest {
     @Test
     void findArticlesBySearchText() {
         Mockito.when(productRepository.findArticlesBySearchText(Mockito.anyString())).thenReturn(new ArrayList<>());
-        List<Product> products = productService.findArticlesBySearchText("test");
+        List<ProductDto> products = productService.findArticlesBySearchText("test");
         Assertions.assertEquals(0, products.size());
         Mockito.verify(productRepository, Mockito.times(1)).findArticlesBySearchText(Mockito.anyString());
     }
@@ -83,7 +84,7 @@ class ProductServiceImplTest {
     void getProductByIdOrSku() {
         Product mockProduct = Mockito.mock(Product.class);
         Mockito.when(productRepository.findById(Mockito.anyLong())).thenReturn(Optional.of(mockProduct));
-        Product product = productService.getProductByIdOrSku("1");
+        ProductDto product = productService.getProductByIdOrSku("1");
         Assertions.assertNotNull(product);
         Mockito.verify(productRepository, Mockito.times(1)).findById(Mockito.anyLong());
 

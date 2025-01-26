@@ -1,4 +1,4 @@
-package com.thiru.orchestrator.data;
+package com.thiru.orchestrator.utils;
 
 import com.thiru.orchestrator.service.product.ProductService;
 import lombok.AllArgsConstructor;
